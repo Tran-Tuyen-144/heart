@@ -138,7 +138,7 @@ if __name__ == "__main__":
     center_window(root, CANVAS_WIDTH, CANVAS_HEIGHT)
 
     canvas = Canvas(root, bg='black', height=CANVAS_HEIGHT, width=CANVAS_WIDTH)
-    canvas.pack()
+    canvas.pack()  
 
     heart = Heart()
     draw(root, canvas, heart)
